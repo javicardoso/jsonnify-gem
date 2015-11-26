@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="2" failures="0" hostname="test.test.com" id="0" name="CurrencyConversionTests" package="com.tests.sites.api.test.functional" tests="2" time="0.511" timestamp="2015-11-20T18:16:06">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.functional.CurrencyConversionTests" name="testCurrencyConversionUpdate" time="0.502">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.CurrencyConversionTests.setUp(CurrencyConversionTests.groovy:8)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.CurrencyConversionTests" name="testCurrencyConversionComplete" time="0.008">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.CurrencyConversionTests.setUp(CurrencyConversionTests.groovy:8)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testCurrencyConversionUpdate--
+--Output from testCurrencyConversionComplete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testCurrencyConversionUpdate--
+--Output from testCurrencyConversionComplete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="3" failures="0" hostname="test.test.com" id="1" name="CurrencyShowTests" package="com.tests.sites.api.test.functional" tests="3" time="0.013" timestamp="2015-11-20T18:16:06">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.functional.CurrencyShowTests" name="testCurrencyShowID" time="0.004">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.CurrencyShowTests.setUp(CurrencyShowTests.groovy:8)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.CurrencyShowTests" name="testCurrencyShowList" time="0.004">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.CurrencyShowTests.setUp(CurrencyShowTests.groovy:8)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.CurrencyShowTests" name="testCurrencyShowIDNonExist" time="0.004">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.CurrencyShowTests.setUp(CurrencyShowTests.groovy:8)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testCurrencyShowID--
+--Output from testCurrencyShowList--
+--Output from testCurrencyShowIDNonExist--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testCurrencyShowID--
+--Output from testCurrencyShowList--
+--Output from testCurrencyShowIDNonExist--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="5" failures="0" hostname="test.test.com" id="2" name="DomainShowTests" package="com.tests.sites.api.test.functional" tests="5" time="0.06" timestamp="2015-11-20T18:16:06">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.functional.DomainShowTests" name="testDomainLocalhostShouldReturnNotFound" time="0.016">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.DomainShowTests.setUp(DomainShowTests.groovy:9)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.DomainShowTests" name="testDomainShowIDNonExist" time="0.004">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.DomainShowTests.setUp(DomainShowTests.groovy:9)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.DomainShowTests" name="testDomainShowIDEsDominioExacto" time="0.005">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.DomainShowTests.setUp(DomainShowTests.groovy:9)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.DomainShowTests" name="testDomainShowALL" time="0.013">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.DomainShowTests.setUp(DomainShowTests.groovy:9)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.DomainShowTests" name="testDomainShowIDUrlContieneDominio" time="0.018">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.DomainShowTests.setUp(DomainShowTests.groovy:9)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testDomainLocalhostShouldReturnNotFound--
+--Output from testDomainShowIDNonExist--
+--Output from testDomainShowIDEsDominioExacto--
+--Output from testDomainShowALL--
+--Output from testDomainShowIDUrlContieneDominio--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testDomainLocalhostShouldReturnNotFound--
+--Output from testDomainShowIDNonExist--
+--Output from testDomainShowIDEsDominioExacto--
+--Output from testDomainShowALL--
+--Output from testDomainShowIDUrlContieneDominio--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="2" failures="0" hostname="test.test.com" id="3" name="PaymentMethodsShowTests" package="com.tests.sites.api.test.functional" tests="2" time="0.009" timestamp="2015-11-20T18:16:06">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.functional.PaymentMethodsShowTests" name="testPaymentMethodsShowID" time="0.006">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.PaymentMethodsShowTests.setUp(PaymentMethodsShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.PaymentMethodsShowTests" name="testPaymentMethodsShowIDNotFound" time="0.003">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.PaymentMethodsShowTests.setUp(PaymentMethodsShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testPaymentMethodsShowID--
+--Output from testPaymentMethodsShowIDNotFound--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testPaymentMethodsShowID--
+--Output from testPaymentMethodsShowIDNotFound--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="2" failures="0" hostname="test.test.com" id="4" name="SecretQuestionShowTests" package="com.tests.sites.api.test.functional" tests="2" time="0.024" timestamp="2015-11-20T18:16:06">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.functional.SecretQuestionShowTests" name="testSecretQuestion" time="0.015">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SecretQuestionShowTests.setUp(SecretQuestionShowTests.groovy:9)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.SecretQuestionShowTests" name="testCurrencyShowIDNonExist" time="0.007">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SecretQuestionShowTests.setUp(SecretQuestionShowTests.groovy:9)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSecretQuestion--
+--Output from testCurrencyShowIDNonExist--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSecretQuestion--
+--Output from testCurrencyShowIDNonExist--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="2" failures="0" hostname="test.test.com" id="5" name="SimpleShippingMethodsShowTests" package="com.tests.sites.api.test.functional" tests="2" time="0.01" timestamp="2015-11-20T18:16:07">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.functional.SimpleShippingMethodsShowTests" name="testSimpleShippingMethodsShowIDNotFound" time="0.004">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SimpleShippingMethodsShowTests.setUp(SimpleShippingMethodsShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.SimpleShippingMethodsShowTests" name="testSimpleShippingMethodsShowID" time="0.005">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SimpleShippingMethodsShowTests.setUp(SimpleShippingMethodsShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSimpleShippingMethodsShowIDNotFound--
+--Output from testSimpleShippingMethodsShowID--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSimpleShippingMethodsShowIDNotFound--
+--Output from testSimpleShippingMethodsShowID--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="6" failures="0" hostname="test.test.com" id="6" name="SiteShowTests" package="com.tests.sites.api.test.functional" tests="6" time="0.025" timestamp="2015-11-20T18:16:07">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.functional.SiteShowTests" name="testSiteShowIDNonExist" time="0.006">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SiteShowTests.setUp(SiteShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.SiteShowTests" name="testSiteShowList" time="0.004">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SiteShowTests.setUp(SiteShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.SiteShowTests" name="testSiteShowID" time="0.003">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SiteShowTests.setUp(SiteShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.SiteShowTests" name="testSiteShowMLA" time="0.005">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SiteShowTests.setUp(SiteShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.SiteShowTests" name="testSiteShowIDWithDump" time="0.003">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SiteShowTests.setUp(SiteShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.tests.sites.api.test.functional.SiteShowTests" name="testSiteMPAShouldBeFreeOnSaleFeesModeField" time="0.003">
+          <error message="Could not find ApplicationContext, configure Grails correctly first" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not find ApplicationContext, configure Grails correctly first
+	at grails.util.Holders.getApplicationContext(Holders.java:97)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.getSessionFactory(CommonAPITestCase.groovy:22)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.cleanup(CommonAPITestCase.groovy:41)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:183)
+	at com.tests.sites.api.test.functional.CommonAPITestCase.setUp(CommonAPITestCase.groovy:28)
+	at com.tests.sites.api.test.functional.SiteShowTests.setUp(SiteShowTests.groovy:10)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSiteShowIDNonExist--
+--Output from testSiteShowList--
+--Output from testSiteShowID--
+--Output from testSiteShowMLA--
+--Output from testSiteShowIDWithDump--
+--Output from testSiteMPAShouldBeFreeOnSaleFeesModeField--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSiteShowIDNonExist--
+--Output from testSiteShowList--
+--Output from testSiteShowID--
+--Output from testSiteShowMLA--
+--Output from testSiteShowIDWithDump--
+--Output from testSiteMPAShouldBeFreeOnSaleFeesModeField--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="test.test.com" id="7" name="APIDomainMarshallerTests" package="com.tests.sites.api.test.integration" tests="1" time="0.417" timestamp="2015-11-20T18:16:01">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.integration.APIDomainMarshallerTests" name="testDomainMarhshallShouldNotIncludeClassField" time="0.416" />
+
+      <system-out><![CDATA[--Output from testDomainMarhshallShouldNotIncludeClassField--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testDomainMarhshallShouldNotIncludeClassField--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="test.test.com" id="8" name="CategoriesAPIClientTests" package="com.tests.sites.api.test.integration" tests="4" time="0.088" timestamp="2015-11-20T18:16:02">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.integration.CategoriesAPIClientTests" name="testGetExistentCategory" time="0.063" />
+
+      <testcase classname="com.tests.sites.api.test.integration.CategoriesAPIClientTests" name="categoriesL1BySiteId" time="0.005" />
+
+      <testcase classname="com.tests.sites.api.test.integration.CategoriesAPIClientTests" name="testGetUnExistentCategory" time="0.011" />
+
+      <testcase classname="com.tests.sites.api.test.integration.CategoriesAPIClientTests" name="testProductsByCategoryId" time="0.005" />
+
+      <system-out><![CDATA[--Output from testGetExistentCategory--
+--Output from categoriesL1BySiteId--
+--Output from testGetUnExistentCategory--
+--Output from testProductsByCategoryId--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testGetExistentCategory--
+--Output from categoriesL1BySiteId--
+--Output from testGetUnExistentCategory--
+--Output from testProductsByCategoryId--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="test.test.com" id="9" name="CategoriesDumpServiceTest" package="com.tests.sites.api.test.integration" tests="2" time="3.493" timestamp="2015-11-20T18:15:58">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.integration.CategoriesDumpServiceTest" name="testUpdateData" time="2.902" />
+
+      <testcase classname="com.tests.sites.api.test.integration.CategoriesDumpServiceTest" name="testReadFile" time="0.584" />
+
+      <system-out><![CDATA[--Output from testUpdateData--
+--Output from testReadFile--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testUpdateData--
+--Output from testReadFile--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="test.test.com" id="10" name="CurrencyIntegrationTests" package="com.tests.sites.api.test.integration" tests="1" time="0.06" timestamp="2015-11-20T18:16:02">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.integration.CurrencyIntegrationTests" name="Save currency" time="0.06" />
+
+      <system-out><![CDATA[--Output from Save currency--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Save currency--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="test.test.com" id="11" name="SiteIntegrationTests" package="com.tests.sites.api.test.integration" tests="1" time="0.078" timestamp="2015-11-20T18:16:02">
+      <properties />
+
+      <testcase classname="com.tests.sites.api.test.integration.SiteIntegrationTests" name="Creating a site should work ok" time="0.071" />
+
+      <system-out><![CDATA[--Output from Creating a site should work ok--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Creating a site should work ok--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
